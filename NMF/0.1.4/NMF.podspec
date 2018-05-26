@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
-  s.source_files = 'NMF/**/*.{swift,plist}'
+  s.source_files = 'Sources/**/*.{swift,plist}'
   #s.source_files = 'NMF/**/*.{swift,plist}'
   #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
   s.frameworks = 'UIKit'
