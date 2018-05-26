@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		0CBE73831F6372CE8FDF9F81 /* Pods_NMF_IOS_NMF_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8386ABAC1703C521CC1829 /* Pods_NMF_IOS_NMF_IOSTests.framework */; };
 		19A5EA44B99A8DE3F83BE8B9 /* Pods_NMF_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD6932BCC12655864167ACC /* Pods_NMF_IOS.framework */; };
-		6220A8EC2087DE9900FD960D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6220A8EB2087DE9900FD960D /* StringExtensions.swift */; };
+		62657A8820BA0C67009A32B5 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62657A8220BA0C67009A32B5 /* StringExtensions.swift */; };
+		62657A8920BA0C67009A32B5 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62657A8320BA0C67009A32B5 /* UIImageExtensions.swift */; };
+		62657A8A20BA0C67009A32B5 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62657A8420BA0C67009A32B5 /* UIViewExtensions.swift */; };
+		62657A8B20BA0C67009A32B5 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62657A8520BA0C67009A32B5 /* UIDeviceExtensions.swift */; };
+		62657A8C20BA0C67009A32B5 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62657A8620BA0C67009A32B5 /* UIFontExtensions.swift */; };
+		62657A8D20BA0C67009A32B5 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62657A8720BA0C67009A32B5 /* UIColorExtensions.swift */; };
 		62C24E4420B7810D00351DF7 /* NMF.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 62C24E4320B7810D00351DF7 /* NMF.podspec */; };
 		62C24E5F20B90B7E00351DF7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 62C24E5E20B90B7E00351DF7 /* README.md */; };
 		62C24E6120B90B8800351DF7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 62C24E6020B90B8800351DF7 /* LICENSE */; };
 		62DA32692087B12A00BB0DD5 /* NMF_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DA325F2087B12A00BB0DD5 /* NMF_IOS.framework */; };
 		62DA326E2087B12A00BB0DD5 /* NMFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA326D2087B12A00BB0DD5 /* NMFTests.swift */; };
 		62DA32702087B12A00BB0DD5 /* NMF.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DA32622087B12A00BB0DD5 /* NMF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62DA32832087B56600BB0DD5 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA327D2087B56600BB0DD5 /* UIImageExtensions.swift */; };
-		62DA32842087B56600BB0DD5 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA327E2087B56600BB0DD5 /* UIViewExtensions.swift */; };
-		62DA32852087B56600BB0DD5 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA327F2087B56600BB0DD5 /* UIDeviceExtensions.swift */; };
-		62DA32862087B56600BB0DD5 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA32802087B56600BB0DD5 /* UIFontExtensions.swift */; };
-		62DA32872087B56600BB0DD5 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA32812087B56600BB0DD5 /* UIColorExtensions.swift */; };
 		62FA79C2208FC9180004475E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 62FA79C1208FC9180004475E /* Podfile */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6220A8EB2087DE9900FD960D /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		62657A8220BA0C67009A32B5 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		62657A8320BA0C67009A32B5 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		62657A8420BA0C67009A32B5 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		62657A8520BA0C67009A32B5 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		62657A8620BA0C67009A32B5 /* UIFontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		62657A8720BA0C67009A32B5 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		62C24E4320B7810D00351DF7 /* NMF.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NMF.podspec; sourceTree = SOURCE_ROOT; };
 		62C24E5E20B90B7E00351DF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		62C24E6020B90B8800351DF7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
@@ -45,11 +50,6 @@
 		62DA32682087B12A00BB0DD5 /* NMF-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NMF-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DA326D2087B12A00BB0DD5 /* NMFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMFTests.swift; sourceTree = "<group>"; };
 		62DA326F2087B12A00BB0DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DA327D2087B56600BB0DD5 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
-		62DA327E2087B56600BB0DD5 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		62DA327F2087B56600BB0DD5 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
-		62DA32802087B56600BB0DD5 /* UIFontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
-		62DA32812087B56600BB0DD5 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		62FA79C1208FC9180004475E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6AE8BB33D1AB9B6D833BBCE2 /* Pods-NMF-IOS-NMF-IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMF-IOS-NMF-IOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMF-IOS-NMF-IOSTests/Pods-NMF-IOS-NMF-IOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		70B32C5F3BE53F64AC4481FE /* Pods-NMF-IOS-NMF-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMF-IOS-NMF-IOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMF-IOS-NMF-IOSTests/Pods-NMF-IOS-NMF-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,12 +80,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		62AB73952087C2B600CFC31B /* Helpers */ = {
+		62657A8120BA0C67009A32B5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				62657A8220BA0C67009A32B5 /* StringExtensions.swift */,
+				62657A8320BA0C67009A32B5 /* UIImageExtensions.swift */,
+				62657A8420BA0C67009A32B5 /* UIViewExtensions.swift */,
+				62657A8520BA0C67009A32B5 /* UIDeviceExtensions.swift */,
+				62657A8620BA0C67009A32B5 /* UIFontExtensions.swift */,
+				62657A8720BA0C67009A32B5 /* UIColorExtensions.swift */,
 			);
-			path = Helpers;
-			sourceTree = "<group>";
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
 		62AB73D02087D3DD00CFC31B /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -124,7 +130,7 @@
 				62DA32622087B12A00BB0DD5 /* NMF.h */,
 				62DA32632087B12A00BB0DD5 /* Info.plist */,
 				62DA32792087B56600BB0DD5 /* Resources */,
-				62DA327A2087B56600BB0DD5 /* Sources */,
+				62657A8120BA0C67009A32B5 /* Sources */,
 				62AB73D02087D3DD00CFC31B /* Supporting Files */,
 			);
 			path = NMF;
@@ -144,44 +150,6 @@
 			children = (
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		62DA327A2087B56600BB0DD5 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				62DA327B2087B56600BB0DD5 /* Extensions */,
-				62AB73952087C2B600CFC31B /* Helpers */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		62DA327B2087B56600BB0DD5 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				62DA32822087B56600BB0DD5 /* Foundation */,
-				6220A8EB2087DE9900FD960D /* StringExtensions.swift */,
-				62DA327C2087B56600BB0DD5 /* UIKit */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		62DA327C2087B56600BB0DD5 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				62DA327D2087B56600BB0DD5 /* UIImageExtensions.swift */,
-				62DA327E2087B56600BB0DD5 /* UIViewExtensions.swift */,
-				62DA327F2087B56600BB0DD5 /* UIDeviceExtensions.swift */,
-				62DA32802087B56600BB0DD5 /* UIFontExtensions.swift */,
-				62DA32812087B56600BB0DD5 /* UIColorExtensions.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		62DA32822087B56600BB0DD5 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation;
 			sourceTree = "<group>";
 		};
 		6DD8110A4F9256DB20757060 /* Frameworks */ = {
@@ -377,12 +345,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6220A8EC2087DE9900FD960D /* StringExtensions.swift in Sources */,
-				62DA32842087B56600BB0DD5 /* UIViewExtensions.swift in Sources */,
-				62DA32852087B56600BB0DD5 /* UIDeviceExtensions.swift in Sources */,
-				62DA32862087B56600BB0DD5 /* UIFontExtensions.swift in Sources */,
-				62DA32832087B56600BB0DD5 /* UIImageExtensions.swift in Sources */,
-				62DA32872087B56600BB0DD5 /* UIColorExtensions.swift in Sources */,
+				62657A8820BA0C67009A32B5 /* StringExtensions.swift in Sources */,
+				62657A8B20BA0C67009A32B5 /* UIDeviceExtensions.swift in Sources */,
+				62657A8C20BA0C67009A32B5 /* UIFontExtensions.swift in Sources */,
+				62657A8D20BA0C67009A32B5 /* UIColorExtensions.swift in Sources */,
+				62657A8A20BA0C67009A32B5 /* UIViewExtensions.swift in Sources */,
+				62657A8920BA0C67009A32B5 /* UIImageExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
