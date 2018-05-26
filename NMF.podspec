@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'NMF'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'NMF libraries example'
  
   s.description      = <<-DESC
-                        Enter description here!!!
+                       Enter description here!!!
                        DESC
  
   s.homepage         = 'https://github.com/bell-jamesl/NMF'
@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   #s.source_files = 'NMF/**/*.{swift,plist}'
   #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
   s.frameworks = 'UIKit'
+  s.dependency 'Alamofire', '~> 4.7.2'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -29,8 +30,6 @@ Pod::Spec.new do |s|
   #
   # s.ios.frameworks = "Foundation", "MobileCoreServices"
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  #s.dependency 'Alamofire', '~> 2.0'
 
   # s.resource_bundles = {
   #   'Snorlax' => ['Snorlax/Assets/*.png']
