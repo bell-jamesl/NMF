@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NMF'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'NMF libraries example'
  
   s.description      = <<-DESC
@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
-  s.source_files = 'NMF/**/*.{swift}'
+  s.source_files = 'NMF/*.{swift,plist}'
+  #s.source_files = 'NMF/**/*.{swift,plist}'
   #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
   s.frameworks = 'UIKit'
 
