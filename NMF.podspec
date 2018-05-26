@@ -11,15 +11,24 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'James Laurenstin' => 'author@gmail.com' }
   s.source           = { :git => 'https://github.com/bell-jamesl/NMF.git', :tag => s.version.to_s }
+  #s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  #s.social_media_url = 'https://twitter.com/ziad_tamim'
  
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.0'
-  s.source_files = 'NMF/*'
+  s.source_files = 'NMF/**/*.{swift}'
+  s.frameworks = 'UIKit'
 
-    # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-    #
-    #  Link your library with frameworks, or libraries. Libraries do not include
-    #  the lib prefix of their name.
-    #
-    # s.ios.frameworks = "Foundation", "MobileCoreServices"
+  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  Link your library with frameworks, or libraries. Libraries do not include
+  #  the lib prefix of their name.
+  #
+  # s.ios.frameworks = "Foundation", "MobileCoreServices"
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.dependency 'AFNetworking', '~> 2.3'
+
+  # s.resource_bundles = {
+  #   'Snorlax' => ['Snorlax/Assets/*.png']
+  # }
 end
