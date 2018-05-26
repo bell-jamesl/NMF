@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NMF'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'NMF libraries example'
  
   s.description      = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.{swift,plist}'
   #s.source_files = 'NMF/**/*.{swift,plist}'
   #s.resources = "NMF/**/*.{png,jpeg,jpg,storyboard,xib}"
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'Alamofire', '~> 4.7.2'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
