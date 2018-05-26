@@ -1,0 +1,6 @@
+framework module Pods_NMF_IOS_NMF_IOSTests {
+  umbrella header "Pods-NMF-IOS-NMF-IOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

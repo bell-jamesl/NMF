@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jameslaurenstin/Documents/Bell/POC/NMF/NMF/NMF/Sources/Extensions/UIKit/UIDeviceExtensions.swift",
+      "line": 41,
+      "symbol": "UIDevice.DeviceSize",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jameslaurenstin/Documents/Bell/POC/NMF/NMF/NMF/Sources/Extensions/UIKit/UIDeviceExtensions.swift",
+      "line": 58,
+      "symbol": "UIDevice.DeviceSize.inches_3_5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jameslaurenstin/Documents/Bell/POC/NMF/NMF/NMF/Sources/Extensions/UIKit/UIDeviceExtensions.swift",
+      "line": 59,
+      "symbol": "UIDevice.DeviceSize.inches_4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jameslaurenstin/Documents/Bell/POC/NMF/NMF/NMF/Sources/Extensions/UIKit/UIDeviceExtensions.swift",
+      "line": 60,
+      "symbol": "UIDevice.DeviceSize.inches_4_7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jameslaurenstin/Documents/Bell/POC/NMF/NMF/NMF/Sources/Extensions/UIKit/UIDeviceExtensions.swift",
+      "line": 61,
+      "symbol": "UIDevice.DeviceSize.inches_5_5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jameslaurenstin/Documents/Bell/POC/NMF/NMF"
+}
